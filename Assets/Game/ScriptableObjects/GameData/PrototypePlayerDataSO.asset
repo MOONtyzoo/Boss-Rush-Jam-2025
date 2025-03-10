@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300aed081977b344d9457cf1106eb950, type: 3}
+  m_Name: PrototypePlayerDataSO
+  m_EditorClassIdentifier: 
+  damagingMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  maxHealth: 5
+  invulnerabilityDuration: 2.5
+  hurtStunDuration: 0.5
+  terrainLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  moveSpeed: 5.75
+  groundedAcceleration: 15
+  groundedDeceleration: 12
+  aerialAcceleration: 7.5
+  aerialDeceleration: 5
+  wallFriction: 27
+  jumpSpeed: 12
+  gravityScale: 1.45
+  shootAimAssister: {fileID: 11400000, guid: f336574cea8994a4a8ad49535e04a37b, type: 2}
+  projectileDamage: 4
+  projectileSpeed: 17
+  webShooterCooldown: 0.5
+  grappleAimAssister: {fileID: 11400000, guid: 974e738a8276fad4585def9495afb5a6, type: 2}
+  grapplePointLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  grappleObstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
+  grappleRange: 5.5
+  grappleShootSpeed: 22
+  grappleRetractSpeed: 13
+  grapplePullSpeed: 13
