@@ -1,6 +1,6 @@
 # RoomSpin
  
-IMPORTANT NOTE: Originally, this project was coded using Unity VCS. I ported it to GitHub to make the code publically accessable, but as a result, there is not a visible commit history or ability to see the contributions of the other members. In this README I'll explain my contributions.
+_IMPORTANT NOTE: Originally, this project was coded using Unity VCS. I ported it to GitHub to make the code publically accessable, but as a result, there is not a visible commit history or ability to see the contributions of the other members. In this README I'll explain my contributions._
 
 This was a project that we created for the 2025 Boss Rush Game Jam. My contributions were that I served as the lead gameplay programmer and artist. My biggest achievement was that I created a complex player controller using a state machine and C# events (more details below).
 
